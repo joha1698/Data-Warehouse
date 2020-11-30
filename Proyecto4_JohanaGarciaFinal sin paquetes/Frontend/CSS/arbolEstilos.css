@@ -1,0 +1,134 @@
+main{
+    height: 100%;
+    padding-bottom: 250px;
+}
+
+ul, #myUL {
+    list-style-type: none;
+}
+
+#myUL {
+    margin: 0;
+    padding: 0;
+}
+
+.caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+    color: #6F4B60;
+    font-family: "BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" ;
+}
+
+
+.caret::before {
+    content: "\25B6";
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.caret-down::before {
+    transform: rotate(90deg);  
+}
+
+/*
+.nested {
+    display: none;
+}*/
+
+h1{
+    text-align: center;
+    color: white;
+}
+/*
+#myUL{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+*/
+.containerUp{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#responseCrearRegion{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#modal-content{
+    background-color: rgb(199, 196, 196);
+    color: black;
+}
+
+#contentAgregarRegion{
+    background-color: rgb(199, 196, 196);
+    color: black;
+}
+#modal-contentAgregarPaisCiudad{
+    background-color: rgb(199, 196, 196);
+    color: black;
+}
+
+#modal-contentAgregarRegion{
+    background-color: rgb(199, 196, 196);
+    color: black;  
+}
+
+.bordeBoton{
+    border-style: solid;
+    border-color: #6F4B60;
+    border-width: 1px;
+    color:rgba(255,255,255,.5);
+    background-color: #6F4B60;
+    font-family: "BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" ;
+}
+.bordeBoton:hover{
+    font-size: 17px;
+    background-color: #6F4B60;
+    color: rgba(255,255,255,.5);
+}
+.bordeBoton2{
+    border-style: solid;
+    border-color: #f8f9fa;
+    border-width: 1px;
+    color:#6F4B60;
+    background-color: #c6c6c7;
+}
+.bordeBoton2:hover{
+    font-size: 17px;
+    background-color: #c6c6c6;
+    color: #6F4B60;
+}
+.marginLi{
+    margin-bottom: 40px;
+   
+}
+.paddingLi{
+    padding-left: 50px;
+    margin:10px;
+    margin-bottom: 30px;
+}
+.marginLiCiudades{
+    margin:10px;
+}
+.paises{
+    background-color: #dedee2;
+    border-radius: 16px;
+    padding-top: 19px;
+    padding-bottom: 12px;
+}
+.marginboton{
+    margin-left: 10px;
+}
+.botonCentrado1{
+    position: relative;
+    left: 695px;
+
+}
+.botonCentrado2{
+    position: relative;
+    left: 710px;
+}

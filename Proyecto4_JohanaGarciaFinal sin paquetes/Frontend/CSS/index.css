@@ -1,0 +1,86 @@
+.alto{
+    height: 52px;
+}
+
+.altonav{
+    height: 75px;
+}
+.morado{
+    background-color: #6F4B60;
+    
+}
+.moradoletra{
+    color: #6F4B60;
+}
+.rosado{
+    color: #D3B3B0;
+}
+.derecha{
+    position: absolute;
+    right: 0px;
+    
+}
+.margenTop{
+    margin-top: 40px;
+}
+.margenPiso{
+    margin-bottom: 80px;
+}
+.displayLinea{
+    display: inline-block;
+}
+.tamañoFuentePequeño{
+    font-size: 14px;
+}
+.colorFuente{
+    color: #6F4B60;
+}
+.senalador{
+    cursor: pointer;
+}
+
+#eliminarContacto:active{
+    color:#b888a4;
+}
+.botonBuscar{
+    width: 40px;
+    height: 46px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.borde{
+    border-style: solid;
+    border-color: #6F4B60;
+    border-width: 3px;
+    border-top: none;
+}
+.displayBlock{
+    display: block;
+}
+.anchoLogo{
+    width: 120px;
+}
+.positionTop{
+    top:260px;
+}
+.positionBottom{
+    position: relative;
+    bottom: -100px;
+}
+.titulo{
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+.titulo2{
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.padding0{
+    padding-bottom: 0;
+}
+.ocultarUsuarios{
+    display: none;
+}
